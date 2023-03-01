@@ -10,7 +10,7 @@ function Header() {
         <Nav class="navbar navbar-expand-lg navbar-light bg-light">
             <Link to='/'>Home</Link>
             <Link to='about-me'>About Me</Link>
-            <Link to='job-experience'>Job Experience</Link>
+            <Link to='job-experience'>Relevant Experience</Link>
         </Nav>
     )
 }

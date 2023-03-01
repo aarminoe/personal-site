@@ -8,6 +8,7 @@ function Experience() {
                 <h2>Procom</h2>
                 <p>March 2022 - Current</p>
                 <p>Elk Grove, IL</p>
+                <h3>IT Technician</h3>
                 <div>
                     <h3>Responsibilites:</h3>
                     <p>
@@ -22,6 +23,7 @@ function Experience() {
                 <h2>Modern Media Tech</h2>
                 <p>June 2019 - March 2022</p>
                 <p>Lake Bluff, IL</p>
+                <h3>IT Technician</h3>
                 <div>
                     <h3>Responsibilites:</h3>
                     <p>
