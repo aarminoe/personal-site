@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Nav } from "react-bootstrap";
+import NavLink from "react-bootstrap";
+import { Card } from "react-bootstrap";
+
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Nav class="navbar navbar-expand-lg navbar-light bg-light">
             <Link to='/'>Home</Link>
             <Link to='about-me'>About Me</Link>
-        </nav>
+            <Link to='job-experience'>Job Experience</Link>
+        </Nav>
     )
 }
 
