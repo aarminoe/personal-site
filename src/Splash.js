@@ -1,12 +1,12 @@
 import React from "react";
 import { useState } from "react";
 
-function Splash({enter}) {
+function Splash({enterToSite}) {
 
-    const [enter, setEnter] = useState(false)
+    
 
     function enterSite(){
-        setEnter(true)
+        enterToSite(true)
     }
 
     return(
