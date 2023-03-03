@@ -11,7 +11,7 @@ function Header() {
             <Nav>
                 <Link className="link-nav" to='/'>Home</Link>
                 <Link className="link-nav" to='about-me'>About Me</Link>
-                <Link className="link-nav" to='job-experience'>Relevant Experience</Link>
+                <Link className="link-nav" to='job-experience'>Experience</Link>
             </Nav>
         </Card>
     )

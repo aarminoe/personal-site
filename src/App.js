@@ -47,7 +47,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <h1>{<Header/>}</h1>
+        <div className='header-space'>{<Header/>}</div>
         <div>
           <Routes>
             <Route path='/' element={ <Home /> }/>

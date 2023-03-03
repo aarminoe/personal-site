@@ -22,6 +22,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  top: 0px;
 }
 
 .App-link {
@@ -46,13 +47,16 @@
 }
 
 
-.navbar{
-  background-color: blue;
+.header-space{
+  background-color: skyblue;
+  font-size: xx-large;
+  text-align: center;
 }
 
 .link-nav {
-  margin-left: 100px;
+  margin-left: 80px;
   text-decoration: none;
+  text-align: center;
   color: black;
 }
 
@@ -60,4 +64,9 @@
   position: absolute;
   bottom: 30px;
   width: 100%;
+}
+
+.currently-on-about {
+  text-decoration: underline;
+  font-weight: 700;
 }
