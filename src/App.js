@@ -6,6 +6,7 @@ import Splash from './Splash';
 import Experience from './Experience';
 import Contact from './Contact';
 import Bottom from './Bottom';
+import Projects from './Projects';
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
@@ -23,10 +24,6 @@ function App() {
       setVisitorsNum(data[1].visitors)
       console.log(data)
     })
-  })
-
-  function enterToSite(t) {
-    setEnter(true)
     fetch('https://54naxau6lb.execute-api.us-east-1.amazonaws.com/visitors', {
       method: 'PUT',
       headers: {
@@ -40,11 +37,15 @@ function App() {
     })
     .then(resp => resp.json())
     .then(data => console.log(data))
+  }, [])
+
+  function enterToSite(t) {
+    setEnter(true)
+    
   }
 
   return (
     <div className="App">
-      {enter ? 
       <div>
         <h1>{<Header/>}</h1>
         <div>
@@ -58,8 +59,6 @@ function App() {
           <Bottom />
         </div>
       </div>
-      : 
-      <div><Splash enterToSite={enterToSite}/></div>}
     </div>
   );
 }

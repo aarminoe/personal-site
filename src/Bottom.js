@@ -3,7 +3,9 @@ import React from "react";
 function Bottom() {
     return(
         <div>
-            bottom of page
+            <div className="contact-info">
+            | ✉️ aarminoe@gmail.com | ☏ 847-924-6488 |
+            </div>
         </div>
     )
 }
