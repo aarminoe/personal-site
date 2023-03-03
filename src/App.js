@@ -2,9 +2,7 @@ import './App.css';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import Home from './Home';
-import Splash from './Splash';
 import Experience from './Experience';
-import Contact from './Contact';
 import Bottom from './Bottom';
 import Projects from './Projects';
 import { Routes } from "react-router-dom";
@@ -53,6 +51,7 @@ function App() {
             <Route path='/' element={ <Home /> }/>
             <Route path='about-me' element={ <AboutMe /> }/>
             <Route path='job-experience' element= { <Experience />}/>
+            <Route path='projects' element= { <Projects />}/>
           </Routes>
         </div>
         <div>

@@ -38,6 +38,11 @@
   }
 }
 
+.about-me-header {
+  text-decoration: underline;
+  text-align: center;
+}
+
 .about-me-paragraph {
   font-size: larger;
   margin-left: auto;
@@ -61,12 +66,28 @@
 }
 
 .contact-info {
-  position: absolute;
-  bottom: 30px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
+  background-color: black;
+  color: white;
+  height: 40px;
 }
 
 .currently-on-about {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.link-card {
+  width: 100px;
+  display: flex;
+}
+
+.single-project {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 60px;
 }
