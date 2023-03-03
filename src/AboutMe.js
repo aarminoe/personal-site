@@ -11,7 +11,7 @@ function AboutMe() {
             </div>
             <div >
                 <p className="currently-on-about">Currently Working On:</p>
-                <p>The Cloud Resume Challenge</p>
+                <p>AWS SysOps Associate Certification</p>
                 <p className="currently-on-about">Currently Learning:</p>
                 <p>Terraform and Docker</p>
             </div>

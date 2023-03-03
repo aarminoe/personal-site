@@ -85,9 +85,17 @@
 }
 
 .single-project {
-  width: fit-content;
+  width: 875px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 25px;
   margin-bottom: 60px;
+}
+
+.exp-card {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 750px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -4,7 +4,7 @@ import { Card } from "@mui/material";
 function Experience() {
     return(
         <div>
-            <Card>
+            <Card className="exp-card">
                 <h2>Procom</h2>
                 <p>March 2022 - Current</p>
                 <p>Elk Grove, IL</p>
@@ -19,7 +19,7 @@ function Experience() {
                     </p>
                 </div>
             </Card>
-            <Card>
+            <Card className="exp-card">
                 <h2>Modern Media Tech</h2>
                 <p>June 2019 - March 2022</p>
                 <p>Lake Bluff, IL</p>
