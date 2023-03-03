@@ -4,6 +4,8 @@ import AboutMe from './AboutMe';
 import Home from './Home';
 import Splash from './Splash';
 import Experience from './Experience';
+import Contact from './Contact';
+import Bottom from './Bottom';
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
 import { useState, useEffect } from 'react';
@@ -51,6 +53,9 @@ function App() {
             <Route path='about-me' element={ <AboutMe /> }/>
             <Route path='job-experience' element= { <Experience />}/>
           </Routes>
+        </div>
+        <div>
+          <Bottom />
         </div>
       </div>
       : 
