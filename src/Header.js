@@ -7,11 +7,13 @@ import { Card } from "react-bootstrap";
 
 function Header() {
     return (
-        <Nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to='/'>Home</Link>
-            <Link to='about-me'>About Me</Link>
-            <Link to='job-experience'>Relevant Experience</Link>
-        </Nav>
+        <Card className="navbar">
+            <Nav>
+                <Link className="link-nav" to='/'>Home</Link>
+                <Link className="link-nav" to='about-me'>About Me</Link>
+                <Link className="link-nav" to='job-experience'>Relevant Experience</Link>
+            </Nav>
+        </Card>
     )
 }
 
