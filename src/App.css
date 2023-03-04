@@ -113,7 +113,12 @@
 .about-me-page{
   margin-top: -50px;
 }
+
 .navbar{
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects-page{
+  margin-bottom: 150px;
 }
