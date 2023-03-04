@@ -2,10 +2,10 @@ import React from "react";
 
 function AboutMe() {
     return (
-        <div>
-            <h1 className="about-me-header">
+        <div className="about-me-page">
+            {/* <h1 className="about-me-header">
                 About Me
-            </h1>
+            </h1> */}
             <div >
                 <p className="currently-on-about">Currently Working On:</p>
                 <p>AWS SysOps Associate Certification</p>

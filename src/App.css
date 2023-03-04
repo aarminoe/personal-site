@@ -39,7 +39,6 @@
 }
 
 .about-me-header {
-  text-decoration: underline;
   text-align: center;
 }
 
@@ -59,7 +58,8 @@
 }
 
 .link-nav {
-  margin-left: 80px;
+  margin-left: 40px;
+  margin-right: 40px;
   text-decoration: none;
   text-align: center;
   color: black;
@@ -96,6 +96,24 @@
   margin-top: 20px;
   margin-bottom: 20px;
   width: 750px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aaron-title {
+  font-size: 100px;
+  text-decoration: underline;
+  margin-top: 0px;
+}
+
+.home-page{
+  margin-bottom: 100px;
+}
+
+.about-me-page{
+  margin-top: -50px;
+}
+.navbar{
   margin-left: auto;
   margin-right: auto;
 }

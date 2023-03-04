@@ -1,15 +1,19 @@
 import React from "react";
+import AboutMe from "./AboutMe";
 
 function Home() {
     return(
-        <div>
+        <div className="home-page">
             <div>
-                <h1>
+                <h1 className="aaron-title">
                     Aaron Noe
                 </h1>
                 <h2>
 
                 </h2>
+                <div>
+                    <AboutMe />
+                </div>
                 <div>
                     <h3>Technical Certifications</h3>
                     <img src="https://aaron-noe-personal-site.s3.amazonaws.com/aws-certified-solutions-architect-associate.png"/>

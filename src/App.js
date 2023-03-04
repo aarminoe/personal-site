@@ -1,9 +1,8 @@
 import './App.css';
 import Header from './Header';
-import AboutMe from './AboutMe';
 import Home from './Home';
 import Experience from './Experience';
-import Bottom from './Bottom';
+import Footer from './Footer';
 import Projects from './Projects';
 import { Routes } from "react-router-dom";
 import { Route } from "react-router-dom";
@@ -12,7 +11,6 @@ import { useState, useEffect } from 'react';
 
 function App() {
 
-  const [enter, setEnter] = useState(false)
   const [visitorsNum, setVisitorsNum] = useState(null)
 
   useEffect(() =>{
@@ -37,11 +35,6 @@ function App() {
     .then(data => console.log(data))
   }, [])
 
-  function enterToSite(t) {
-    setEnter(true)
-    
-  }
-
   return (
     <div className="App">
       <div>
@@ -49,13 +42,12 @@ function App() {
         <div>
           <Routes>
             <Route path='/' element={ <Home /> }/>
-            <Route path='about-me' element={ <AboutMe /> }/>
             <Route path='job-experience' element= { <Experience />}/>
             <Route path='projects' element= { <Projects />}/>
           </Routes>
         </div>
         <div>
-          <Bottom />
+          <Footer />
         </div>
       </div>
     </div>
