@@ -122,3 +122,19 @@
 .projects-page{
   margin-bottom: 150px;
 }
+
+.education{
+  margin-bottom: 50px;
+}
+
+.completed-courses{
+  margin-bottom: 150px;
+}
+
+.education-title{
+  text-decoration: underline;
+}
+
+.completed-courses-title{
+  text-decoration: underline;
+}

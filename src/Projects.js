@@ -15,7 +15,7 @@ function Projects() {
                         <p>• Client data from React triggers a Lambda Function through API Gateway to upload to DynamoDB</p>
                         <p>• Deployed through AWS Amplify to implement CI/CD practices</p>
                     </div>
-                    <div>Technologies: AWS Amplify, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript</div>
+                    <div>Technologies: AWS Amplify, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript, HTML/CSS</div>
                 </div>
             </Card>
             <Card className="single-project">
@@ -42,7 +42,19 @@ function Projects() {
                         <p>• Developed in TypeScript to ensure minimal errors and better efficiency as application grows.</p>
                         <p>• Added a Rails backend with multiple many-to-many relationships and models.</p>
                     </div>
-                    <div> Technologies: TypeScript, JavaScript, Ruby on Rails, Firebase, Ruby, React, PostgreSQL, Active Record</div>
+                    <div> Technologies: TypeScript, JavaScript, Ruby on Rails, Firebase, Ruby, React, PostgreSQL, Active Record, HTML/CSS</div>
+                </div>
+            </Card>
+            <Card className="single-project">
+                <h1>My Clique</h1>
+                <p>Full Stack Facebook-like social media application</p>
+                <Link to='https://github.com/aarminoe/phase-4-project'>GitHub</Link> | <Link to ='https://www.youtube.com/watch?v=RhvL89a6cm8'>Demo</Link>
+                <div>
+                    <div>
+                        <p>• Implemented features including posting, comments, messaging, adding friends, subscribing to groups, likes, etc.</p>
+                        <p>• Utilized Ruby on Rails back end with multiple many-to-many relationships enabling user interaction.</p>
+                    </div>
+                    <div> Technologies: JavaScript, React, Ruby, Ruby on Rails, PostgreSQL, Active Record, HTML/CSS</div>
                 </div>
             </Card>
         </div>
