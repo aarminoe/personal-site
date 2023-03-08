@@ -4,9 +4,6 @@ import { Card } from "@mui/material";
 function AboutMe() {
     return (
         <div className="about-me-page">
-            {/* <h1 className="about-me-header">
-                About Me
-            </h1> */}
             <Card className="currently-on-section">
                 <p className="currently-on-about">Currently Working On:</p>
                 <p>AWS SysOps Associate Certification</p>

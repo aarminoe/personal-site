@@ -18,7 +18,6 @@ function App() {
     .then(resp => resp.json())
     .then(data => {
       setVisitorsNum(data[1].visitors)
-      console.log(data)
     })
     fetch('https://54naxau6lb.execute-api.us-east-1.amazonaws.com/visitors', {
       method: 'PUT',
