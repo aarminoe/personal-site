@@ -165,3 +165,8 @@
   margin-right: auto;
   font-size: large;
 }
+
+.skills-title{
+  text-decoration: underline;
+  font-size: larger;
+}
