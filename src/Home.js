@@ -2,6 +2,7 @@ import React from "react";
 import AboutMe from "./AboutMe";
 import { Link } from "react-router-dom";
 import { Card } from "@mui/material";
+import Skills from "./Skills";
 
 function Home() {
     return(
@@ -13,6 +14,9 @@ function Home() {
                 <h2>
 
                 </h2>
+                <div>
+                    <Skills />
+                </div>
                 <div>
                     <AboutMe />
                 </div>
