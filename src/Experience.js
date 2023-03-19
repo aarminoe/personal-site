@@ -5,6 +5,9 @@ import { Link } from "react-router-dom";
 function Experience() {
     return(
         <div>
+            <div className="aaron-title">
+                Aaron Noe
+            </div>
             <Card className="exp-card">
                 <h2>Procom</h2>
                 <p>March 2022 - Current</p>

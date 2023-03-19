@@ -5,6 +5,9 @@ import { Card } from "@mui/material";
 function Projects() {
     return(
         <div className="projects-page">
+            <div className="aaron-title">
+                Aaron Noe
+            </div>
             <Card className="single-project">
                 <h1>Safe Space</h1>
                 <p>Fully Serverless anonymous blogging website using AWS</p>
