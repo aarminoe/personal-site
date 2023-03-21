@@ -12,7 +12,7 @@ function Home() {
                     Aaron Noe
                 </div>
                 <h2>
-
+                    AWS/Software Engineer
                 </h2>
                 <div>
                     <Skills />
