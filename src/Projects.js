@@ -22,9 +22,9 @@ function Projects() {
                 </div>
             </Card>
             <Card className="single-project">
-                <h1>aarminoe.com</h1>
+                <h1>aaronmnoe.com</h1>
                 <p>Personal site including relevant job experience, projects, etc.</p>
-                <Link to='https://github.com/aarminoe/personal-site'>GitHub</Link> | <Link to ='https://main.d2n54e2sdil7ey.amplifyapp.com/'>Link</Link>
+                <Link to='https://github.com/aarminoe/personal-site'>GitHub</Link> | <Link to ='https://aaronmnoe.com/'>Link</Link>
                 <div>
                     <div>
                         <p>• Utilized an AWS CloudFront Distribution to point to a static S3 website endpoint
