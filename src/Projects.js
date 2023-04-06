@@ -16,7 +16,7 @@ function Projects() {
                     <div>
                         <p>• Implemented AWS Cognito to manage users so you can personalize your job board</p>
                         <p>• Calls an HTTP API in AWS API Gateway that routes through a AWS Lambda function to input data into DynamoDB</p>
-                        <p></p>
+                        <p>• Full CRUD capability. Users can create jobs applied to, change stage of interview process, and delete jobs when process is concluded</p>
                     </div>
                     <div>Technologies: AWS Amplify, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript, HTML/CSS</div>
                 </div>
