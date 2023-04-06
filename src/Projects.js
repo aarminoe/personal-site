@@ -9,6 +9,19 @@ function Projects() {
                 Aaron Noe
             </div>
             <Card className="single-project">
+                <h1>Jobber</h1>
+                <p>The Tech field is tough! Organize and manage all your desired jobs here!</p>
+                <Link to='https://github.com/aarminoe/fully-serverless-app-aws'>GitHub</Link> | <Link to ='https://main.d2n54e2sdil7ey.amplifyapp.com/'>Link</Link>
+                <div>
+                    <div>
+                        <p>• Implemented AWS Cognito to manage users so you can personalize your job board</p>
+                        <p>• Calls an HTTP API in AWS API Gateway that routes through a AWS Lambda function to input data into DynamoDB</p>
+                        <p></p>
+                    </div>
+                    <div>Technologies: AWS Amplify, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript, HTML/CSS</div>
+                </div>
+            </Card>
+            <Card className="single-project">
                 <h1>Safe Space</h1>
                 <p>Fully Serverless anonymous blogging website using AWS</p>
                 <Link to='https://github.com/aarminoe/fully-serverless-app-aws'>GitHub</Link> | <Link to ='https://main.d2n54e2sdil7ey.amplifyapp.com/'>Link</Link>
