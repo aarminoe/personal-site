@@ -11,20 +11,20 @@ function Projects() {
             <Card className="single-project">
                 <h1>Jobber</h1>
                 <p>The Tech field is tough! Organize and manage all your desired jobs here!</p>
-                <Link to='https://github.com/aarminoe/fully-serverless-app-aws'>GitHub</Link> | <Link to ='https://main.d2n54e2sdil7ey.amplifyapp.com/'>Link</Link>
+                <a href='https://github.com/aarminoe/job-tracker-project' target="_blank">GitHub</a> | <a href='https://d3je8aqsjg37uh.cloudfront.net' target="_blank">Link</a>
                 <div>
                     <div>
-                        <p>• Implemented AWS Cognito to manage users so you can personalize your job board</p>
-                        <p>• Calls an HTTP API in AWS API Gateway that routes through a AWS Lambda function to input data into DynamoDB</p>
-                        <p>• Full CRUD capability. Users can create jobs applied to, change stage of interview process, and delete jobs when process is concluded</p>
+                        <p>• Implemented AWS Cognito to allow users to manage their own personalized job board.</p>
+                        <p>• Utilized API Gateway and AWS Lambda to input job data into DynamoDB.</p>
+                        <p>• Deployed through a AWS CloudFront distribution to accelerate static website delivery.</p>
                     </div>
-                    <div>Technologies: AWS Amplify, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript, HTML/CSS</div>
+                    <div>Technologies: AWS S3, AWS CloudFront, AWS Cognito, AWS API Gateway, AWS Lambda, AWS DynamoDB, AWS IAM, React, JavaScript, HTML/CSS</div>
                 </div>
             </Card>
             <Card className="single-project">
                 <h1>Safe Space</h1>
                 <p>Fully Serverless anonymous blogging website using AWS</p>
-                <Link to='https://github.com/aarminoe/fully-serverless-app-aws'>GitHub</Link> | <Link to ='https://main.d2n54e2sdil7ey.amplifyapp.com/'>Link</Link>
+                <a href='https://github.com/aarminoe/fully-serverless-app-aws' target="_blank">GitHub</a> | <a href='https://main.d2n54e2sdil7ey.amplifyapp.com/' target="_blank">Link</a>
                 <div>
                     <div>
                         <p>• Utilized AWS Cognito and Lambda to authorize new users and confirm them in User Pool on sign up</p>
@@ -35,23 +35,9 @@ function Projects() {
                 </div>
             </Card>
             <Card className="single-project">
-                <h1>aaronmnoe.com</h1>
-                <p>Personal site including relevant job experience, projects, etc.</p>
-                <Link to='https://github.com/aarminoe/personal-site'>GitHub</Link> | <Link to ='https://aaronmnoe.com/'>Link</Link>
-                <div>
-                    <div>
-                        <p>• Utilized an AWS CloudFront Distribution to point to a static S3 website endpoint
-</p>
-                        <p>• Tracks site visitors through a call to a custom API, triggering a Lambda function to DynamoDB</p>
-                        <p>• Custom domain name through Route 53, using a hosted zone of an S3 bucket</p>
-                    </div>
-                    <div>Technologies: AWS S3, AWS CloudFront, AWS Route 53, DynamoDB, AWS API Gateway, AWS Lambda, JavaScript, React, HTML/CSS</div>
-                </div>
-            </Card>
-            <Card className="single-project">
                 <h1>Snapper</h1>
                 <p>Full Stack Instagram-like social media application</p>
-                <Link to='https://github.com/aarminoe/Snapper'>GitHub</Link> | <Link to ='https://www.youtube.com/watch?v=Izm94TtfT1w'>Demo</Link>
+                <a href='https://github.com/aarminoe/Snapper' target="_blank">GitHub</a> | <a href='https://www.youtube.com/watch?v=Izm94TtfT1w' target="_blank">Demo</a>
                 <div>
                     <div>
                         <p>• Implemented features including messaging, follow/followers, posting, commenting, etc.</p>
@@ -64,7 +50,7 @@ function Projects() {
             <Card className="single-project">
                 <h1>My Clique</h1>
                 <p>Full Stack Facebook-like social media application</p>
-                <Link to='https://github.com/aarminoe/phase-4-project'>GitHub</Link> | <Link to ='https://www.youtube.com/watch?v=RhvL89a6cm8'>Demo</Link>
+                <a href='https://github.com/aarminoe/phase-4-project' target="_blank">GitHub</a> | <a href='https://www.youtube.com/watch?v=RhvL89a6cm8' target="_blank">Demo</a>
                 <div>
                     <div>
                         <p>• Implemented features including posting, comments, messaging, adding friends, subscribing to groups, likes, etc.</p>
